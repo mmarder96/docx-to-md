@@ -22,9 +22,10 @@ def convert_docx_to_md(docx):
     output_file = os.path.splitext(docx)[0] + '.md'
     with open(output_file, 'w') as f:
         f.write(output)
-    print('\nmoving file to this directory...')
-    shutil.move(output_file, './')
+    print('\ncopying file to this directory...')
+    shutil.copy(output_file, './')
     print('\nDONE!')
+
 
 if __name__ == '__main__':
     main()

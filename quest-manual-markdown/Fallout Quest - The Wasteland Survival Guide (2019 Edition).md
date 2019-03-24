@@ -5373,31 +5373,31 @@ Chapter 15: Item Lists
 
   **Name**              **DT**   **Value**   **Weight**   **Traits**
   --------------------- -------- ----------- ------------ -------------------
-  1st Recon beret       1 DT     1 cap       1 lb.        +1 PER
-  Baseball cap          1 DT     1 cap       1 lb.        +1 Melee weapons
-  Cowboy hat            1 DT     1 cap       1 lb.        +1 Guns
-  Dapper gambler hat    1 DT     1 cap       1 lb.        +1 LCK
-  Doctor cap            1 DT     1 cap       1 lb.        +1 Medicine
-  Enclave officer hat   1 DT     1 cap       1 lb.        +1 Energy Weapons
-  Engineer cap          1 DT     1 cap       1 lb.        +1 Repair
-  Park ranger hat       1 DT     1 cap       1 lb.        +1 Survival
-  Party hat             1 DT     1 cap       1 lb.        +1 CHA
-  Top hat               1 DT     1 cap       1 lb.        +1 Speech
-  Trader hat            1 DT     1 cap       1 lb.        +1 Barter
+  1st Recon beret       0 DT     1 cap       1 lb.        +1 PER
+  Baseball cap          0 DT     1 cap       1 lb.        +1 Melee weapons
+  Cowboy hat            0 DT     1 cap       1 lb.        +1 Guns
+  Dapper gambler hat    0 DT     1 cap       1 lb.        +1 LCK
+  Doctor cap            0 DT     1 cap       1 lb.        +1 Medicine
+  Enclave officer hat   0 DT     1 cap       1 lb.        +1 Energy Weapons
+  Engineer cap          0 DT     1 cap       1 lb.        +1 Repair
+  Park ranger hat       0 DT     1 cap       1 lb.        +1 Survival
+  Party hat             0 DT     1 cap       1 lb.        +1 CHA
+  Top hat               0 DT     1 cap       1 lb.        +1 Speech
+  Trader hat            0 DT     1 cap       1 lb.        +1 Barter
 
 #### Light Helmets
 
   **Name**              **DT**   **Value**   **Weight**   **Traits**
   --------------------- -------- ----------- ------------ ------------------------------
-  Construction helmet   1 DT     1 cap       2 lbs.       ------
-  Great Khan helmet     1 DT     1 cap       3 lb.        +1 Survival
-  Hockey mask           1 DT     1 cap       3 lb.        +1 Unarmed, *Close-faced*
-  Mutant aviator cap    1 DT     1 cap       3 lb.        Only usable by super mutants
-  NCR goggles helmet    1 DT     1 cap       3lb.         +1 Guns
-  Raider fiend helmet   1 DT     1 cap.      3 lb.        -1 CHA, +1 Melee Weapons
-  Recon helmet          1 DT     1 cap       3 lb.        +1 Sneak
-  Motorcycle helmet     1 DT     1 cap       3 lbs.       ------
-  Welder's mask         1 DT     1 cap       4 lbs.       +1 Repair, *Close-faced*
+  Construction helmet   1 DT     2 caps      2 lbs.       ------
+  Great Khan helmet     1 DT     2 caps      3 lb.        +1 Survival
+  Hockey mask           1 DT     2 caps      3 lb.        +1 Unarmed, *Close-faced*
+  Mutant aviator cap    1 DT     2 caps      3 lb.        Only usable by super mutants
+  NCR goggles helmet    1 DT     2 caps      3lb.         +1 Guns
+  Raider fiend helmet   1 DT     2 caps      3 lb.        -1 CHA, +1 Melee Weapons
+  Recon helmet          1 DT     2 caps      3 lb.        +1 Sneak
+  Motorcycle helmet     1 DT     2 caps      3 lbs.       ------
+  Welder's mask         1 DT     2 caps      4 lbs.       +1 Repair, *Close-faced*
 
 #### Medium Helmets
 
@@ -5445,7 +5445,6 @@ Chapter 15: Item Lists
   **Term**           **Effects**
   ------------------ --------------------------------------------------------------------
   *Buzzsaw*          Requires a half action to rev-up the weapon before it can be used.
-  *Flame weapon*     
   *Finesse weapon*   Scales from Agility instead of Strength.
   *Reach weapon*     +5 feet of range but suffer disadvantage on targets within 5 feet.
 
@@ -5466,7 +5465,7 @@ Chapter 15: Item Lists
 ##### One-Handed
 
   **Name**                **DMG**   **ACC**   **STR**   **Value**   **Weight**   **Traits**
-  ----------------------- --------- --------- --------- ----------- ------------ -------------------------
+  ----------------------- --------- --------- --------- ----------- ------------ -----------------------------
   Straight razor          5 +1d4    +1        2 STR     3 caps      1 lb.        ------
   Kitchen knife           5 +1d4    +0        2 STR     3 caps      1 lb.        ------
   Meat cleaver            5 +1d6    -1        3 STR     4 caps      2 lbs.       ------
@@ -5474,7 +5473,7 @@ Chapter 15: Item Lists
   Switch blade            5 +1d4    +1        3 STR     2 caps      1 lb.        ------
   Combat knife            6 +1d4    +0        3 STR     7 caps      2 lbs.       ------
   Hatchet                 6 +1d6    -1        4 STR     8 caps      4 lbs.       ------
-  Shishkebab              5 +1d8    -1        8 STR     10 caps     7 lbs.       *Flame weapon*
+  Shishkebab              5 +1d8    -1        8 STR     20 caps     7 lbs.       Inflict 3 rounds of Burning
   Trench knife            6 +1d4    +0        4 STR     7 caps      3 lbs.       Included brass knuckles
   Chinese officer sword   7 +1d4    +0        6 STR     13 caps     3 lbs.       ------
   Katana                  7 +1d4    +0        6 STR     14 caps     3 lbs.       *Finesse weapon*
